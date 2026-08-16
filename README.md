@@ -42,4 +42,4 @@ Money is stored as integer minor units with an ISO 4217 code and converted only 
 
 ### Links
 
-[LinkedIn](https://www.linkedin.com/in/natalie-yap-4b6922132) · [Email](mailto:natalieyap38@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/natalie-yap-eng) · [Email](mailto:natalieyap38@outlook.com)
