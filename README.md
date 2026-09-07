@@ -10,6 +10,12 @@ software that's actually used, and shipping in the open.
 
 ---
 
+### [invoicely](https://github.com/natcat38/invoicely) — [live demo](https://invoicely-loo1.onrender.com)
+
+Maker-checker invoicing for a small Singapore business: staff draft invoices, only the owner approves, sends, and records payments — a split enforced in the API, not just hidden in the UI. *(Log in as `owner@invoicely.demo` or `staff@invoicely.demo`, password `invoicely-demo-2026`; the free instance takes ~30 s to wake on first load.)*
+
+Java 25 / Spring Boot 4 with a React/TypeScript front end. Money is `BigDecimal` rounded in exactly one place, GST is snapshotted at send so a rate change never rewrites a document a client holds, and 150 tests run against a real PostgreSQL — including two payments racing to overpay one invoice and two invoices racing for the same number. Every non-obvious decision is a written ADR.
+
 ### [rpg-build-optimizer](https://github.com/natcat38/rpg-build-optimizer) — [live demo](https://rpg-build-optimizer.vercel.app)
 
 Finds the optimal five-piece Genshin Impact artifact build from an inventory of hundreds of items, entirely in the browser.
@@ -32,9 +38,9 @@ Money is stored as integer minor units with an ISO 4217 code and converted only 
 
 ### Tech I work with
 
-**Languages** TypeScript · Go · Python
+**Languages** TypeScript · Go · Python · Java
 **Frontend** React · Next.js · Tailwind
-**Backend** Node · GraphQL · Temporal · REST
+**Backend** Node · Spring Boot · GraphQL · Temporal · REST
 **Data** PostgreSQL
 **Payments** KiplePay · Sarawak Pay · CommercePay
 
