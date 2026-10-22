@@ -28,7 +28,7 @@ A pit-wall view of an F1 session: cars on the track map, live timing tower, tele
 
 Python ingest and a Go writer publish byte-identical JSON to Redis as a language-agnostic seam, and a Go gateway fans those frames out over WebSocket — benchmarked at 1,000 concurrent viewers with p99 fan-out of 48 ms and zero dropped clients.
 
-### [trip-planner](https://github.com/natcat38/trip-planner) — [shared itinerary](https://trip-planner-cyan-five.vercel.app/shared/OHLsGOqKXdyIirGnwTDRr0YemWKKDpbK)
+### [trip-planner](https://github.com/natcat38/trip-planner) — [shared itinerary](https://trip-planner-cyan-five.vercel.app/shared/YzdiQTCwe_2LuWzMswg4YWTNDGEOwcMQ)
 
 A multi-user planner for long, multi-city trips: day-by-day itinerary, a budget that tracks spending across currencies, and a map that stays in sync with the plan. *(The link is a real trip published through the app's read-only share route — no sign-in needed.)*
 
